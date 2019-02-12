@@ -1,0 +1,213 @@
+body{
+     background: url("http://saricatering.com/wp-content/uploads/2014/02/simple-wood-2.jpg")
+}
+
+#banner{
+    height: 50px;
+    width: 100%;    
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #FAEBD7;
+}
+
+#extradata{
+    height: 250px;
+    width:500px;
+}
+
+.fpic{
+    height: 95%;
+    width: 45px;
+    padding-left: 5px;
+    float: left;
+    
+}
+
+#bannertitle{
+    float: left;
+    padding-left: 15px;
+    height:95%;
+    width:50%;
+    margin-top: 0px;
+}
+
+#table1{
+    position: absolute;
+    margin-top: 10px;
+    background-color: #FAEBD7;
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#cname{
+    margin-left: 100px;
+    width: 300px;
+}
+
+#desc{
+    margin-left: 107px;
+    width: 500px;
+}
+
+#datec{
+    margin-left: 98px;
+}
+
+#projecttype{
+    margin-left: 100px;
+    width: 270px;
+}
+
+#tabs{
+    margin-top: 200px;
+    position: absolute;
+
+
+}
+
+#tasktable{
+    border-collapse: collapse;
+}
+
+.tablehead{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+
+#toptablehead{
+    background-color: #e2e4ed;
+}
+
+#Tasks{
+    background-color: #FAEBD7;
+}
+
+.statusfield{
+    height: 100px;
+    width: 300px;
+}
+
+.taskfield{
+    height: 75px;
+    width: 200px;
+}
+
+
+ul.tab {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 400px;
+}
+ul.tab li {float: left;}
+
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#resetbutton{
+    background-color: #FAEBD7;
+    margin-left: 8.265%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    padding-bottom: 30px;
+}
+
+#submitbutton{
+    background-color: #FAEBD7;
+    width: 20%;
+    margin-top: 10px; 
+    margin-left: 25%;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+#banner{
+    height: 50px;
+    width: 100%;    
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: #FAEBD7;
+}
+
+.fpic{
+    height: 95%;
+    width: 45px;
+    padding-left: 5px;
+    float: left;
+    
+}
+
+#bannertable{
+    	margin-left: 10px;	
+   	float: left;
+}
+
+.tdbanner{
+    padding-left: 25px;
+}
+
+#employeetable{
+	background-color: #FAEBD7;
+	border-style: solid;
+   	border-color: black;
+   	border-width: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 30%;
+}
+
+#btnSaveChanges{
+	margin-top: 10px;
+	margin-left: 46%;
+}
+
+#searchdiv{
+	border-style: solid;
+   	border-color: black;
+	margin-left: 42%;
+	padding: 10px;
+	width: 200px;
+   	border-width: 2px;
+	margin-top: 30px;
+	background-color: #FAEBD7;
+}
+
+.tdspace{
+    padding-top: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+#Other{
+	background-color: #FAEBD7; 
+}

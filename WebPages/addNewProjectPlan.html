@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ISP Project Project Plan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+    </head>
+    <body>
+        <form action="addPlan.php">
+            <div id="wrapper">
+                <div id='upwrapper'>
+                    <div id='banner'>
+                        <div class="fpic">
+                            <img  class="fpic" src="https://cdn3.iconfinder.com/data/icons/medcare/512/table-512.png">
+                        </div>
+                        <h2 id="bannertitle"> 
+                            Project Plan:
+                        </h2>
+                    </div>
+
+                    <table id='table1'>
+                        <tr>
+                            <td>Client Name: <input type="text" id="cname" name="clientName"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Description:    <input type="text" id="desc" name="projectDescription"></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Date Created:   <input type="text" id="datec" name="dateCreated">
+                                Status: <select name="status">
+                                            <option>Active</option>
+                                            <option>Inactive</option>
+                                        </select>
+                                Project Manager:    <input type="text" id="manager" name="projectManager">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td> Project Type:
+                                <select id='projecttype' name="projectType">
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                    <option>Option 4</option>
+                                    <option>Option 5</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                    <div id="tabs" style='margin:'>
+                         <ul class="tab">
+                            <li><a href="#" class="tablinks" onclick="openTab(event, 'Tasks')">Tasks</a></li>
+                            <li><a href="#" class="tablinks" onclick="openTab(event, 'Other')">Other Information</a></li>
+                          </ul>
+
+                          <div id='Tasks' class="tabcontent">
+                              <table id='tasktable'>
+                                  
+                                  <!-- First Table row -->
+                                  <tr class="tablehead" id='toptablehead'>
+                                       <td class='tdspace'>Task</td>
+                                       <td class='tdspace'>Start Date</td>
+                                       <td class='tdspace'>Due Date <br>
+                                           Original Due Date</td>
+                                       <td class='tdspace'>Resp Indv Extensions</td>
+                                       <td class='tdspace'>Current Status</td>
+                                       <td class='tdspace'>Completed</td>
+                                       <td class='tdspace'></td>
+                                       
+                                  </tr>
+                                  
+                                  <!-- This is the beginning of 7 copies for the first tab -->
+                                
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription1" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate1" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input name="endDate1" type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select name="respEmployee1" class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea name="comments1" class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input name="completed1" type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription2" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate2" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription3" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate3" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription4" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate4" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription5" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate5" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription6" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate6" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                                  
+                                  
+                                  <tr class="tablehead">
+                                      <td class='tdspace'><textarea name="taskDescription7" class='taskfield'></textarea></td>
+                                       <td class='tdspace'><input name="startDate7" type="text" class='startdate'></td>
+                                       <td class='tdspace'><input type="text" class='duedate'><br>
+                                           <input type="text" class='oriduedate'></td>
+                                       <td class='tdspace'>
+                                            <select class='selectfield'>
+                                                <option>MR</option>
+                                                <option>Option 2</option>
+                                                <option>Option 3</option>
+                                                <option>Option 4</option>
+                                                <option>Option 5</option>
+                                            </select><br>
+                                            <input type="text" class='extensionfield'></td>
+                                       <td class='tdspace'><textarea class='statusfield'></textarea></td>
+                                       <td class='tdspace'>
+                                           <input type="checkbox" class='completedbox'><br>
+                                           <input type="text" class='completedfield'>
+                                       </td>
+                                       <td class='tdspace'><button>delete field</button></td>
+                                  </tr>
+                          
+                                  <!-- End of the copies for the first tab-->
+                              </table>
+                          </div>
+
+                            <!-- I wasn't sure what should go here so I just left this-->
+                          <div id='Other' class="tabcontent">
+                              Extra Information:<br>
+                            <textarea id='extradata'>
+                            </textarea>
+                          </div>
+                            <input type="submit" value="Submit" id="submitbutton">
+                            <input type="reset" value="Reset" id="resetbutton">
+                            <!-- JS Script to give our tabs functionality-->
+                        <script>
+                            function openTab(evt, tabName) {
+                                var a, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (a = 0; a < tabcontent.length; a++) {
+                                    tabcontent[a].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (a = 0; a < tabcontent.length; a++) {
+                                    tablinks[a].className = tablinks[a].className.replace(" active", "");
+                                }
+                                document.getElementById(tabName).style.display = "block";
+                                evt.currentTarget.className += " active";
+                            }
+                        </script>
+                    </div>
+        </form>
+    </body>
+</html>
